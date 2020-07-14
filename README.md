@@ -1,6 +1,6 @@
 [![][kong-logo]][kong-url]
-[![Build Status](https://github.com/kong/kubernetes-ingress-controller/workflows/Test/badge.svg)](https://github.com/kong/kubernetes-ingress-controller/actions?query=branch%3Amaster+event%3Apush)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Kong/kong/blob/master/LICENSE)
+[![Build Status](https://github.com/kong/kubernetes-ingress-controller/workflows/Test/badge.svg)](https://github.com/kong/kubernetes-ingress-controller/actions?query=branch%3Amain+event%3Apush)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Kong/kong/blob/main/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/thekonginc.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=thekonginc)
 
 # Kong for Kubernetes
@@ -10,7 +10,7 @@ load balancing and more in Kong
 for Kubernetes Services, all using
 Custom Resource Definitions(CRDs) and Kubernetes-native tooling.
 
-[**Features**](#features) | [**Get started**](#get-started) | [**Documentation**](#documentation) | [**Master branch builds**](#master-branch-builds) | [**Seeking help**](#seeking-help)
+[**Features**](#features) | [**Get started**](#get-started) | [**Documentation**](#documentation) | [**Dev branch builds**](#dev-branch-builds) | [**Seeking help**](#seeking-help)
 
 ## Features
 
@@ -76,14 +76,14 @@ Pull Requests are welcome for additions and corrections.
 Please browse through [guides][guides] to get started or understand how to configure
 a specific setting with Kong Ingress Controller.
 
-## Master branch builds
+## Dev branch builds
 
 If you would like to use the latest and the greatest version of the controller,
-you can use `latest` tag from the [master repository][bintray-master-builds]
+you can use `latest` tag from the [repository][bintray-main-builds]
 hosted on Bintray:
 
 ```
-docker pull kong-docker-kubernetes-ingress-controller.bintray.io/master:latest
+docker pull kong-docker-kubernetes-ingress-controller.bintray.io/main:latest
 ```
 
 ## Seeking help
@@ -122,10 +122,8 @@ meeting invite and Zoom links to join the meeting.
 [crds]: docs/references/custom-resources.md
 [faqs]: docs/faq.md
 [getting-started-guide]: docs/guides/getting-started.md
-[badge-travis-image]: https://travis-ci.org/Kong/kubernetes-ingress-controller.svg?branch=master
-[badge-travis-url]: https://travis-ci.org/Kong/kubernetes-ingress-controller
-[bintray-master-builds]: https://bintray.com/kong/kubernetes-ingress-controller/master
+[bintray-main-builds]: https://bintray.com/kong/kubernetes-ingress-controller/main
 [kong-url]: https://konghq.com/
 [kong-logo]: https://konghq.com/wp-content/uploads/2018/05/kong-logo-github-readme.png
-[k4k8s-enterprise-setup]: https://github.com/Kong/kubernetes-ingress-controller/blob/master/docs/deployment/k4k8s-enterprise.md
+[k4k8s-enterprise-setup]: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/deployment/k4k8s-enterprise.md
 [guides]: docs/guides/

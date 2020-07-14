@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # build
-export IMGNAME="master"
+export IMGNAME="main"
 export TAG=`git rev-parse --short HEAD`
 
 make container

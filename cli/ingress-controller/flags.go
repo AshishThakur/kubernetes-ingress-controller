@@ -209,7 +209,7 @@ protocol://address:port, e.g., "http://localhost:8080.
 If not specified, the assumption is that the binary runs inside a 
 Kubernetes cluster and local discovery is attempted.`)
 	flags.String("kubeconfig", "", "Path to kubeconfig file with "+
-		"authorization and master location information.")
+		"authorization and api-server location information.")
 
 	// Misc
 	flags.Bool("profiling", true, `Enable profiling via web interface host:port/debug/pprof/`)

@@ -44,7 +44,7 @@ compatibility](https://docs.konghq.com/latest/db-less-and-declarative-config/#pl
 
 ## Kong Enterprise
 
-There are [two distributions of Kong Enterprise](https://github.com/Kong/kubernetes-ingress-controller/tree/master/docs/deployment#overview),
+There are [two distributions of Kong Enterprise](https://github.com/Kong/kubernetes-ingress-controller/tree/main/docs/deployment#overview),
 `kong-enterprise-k8s` (used with Kong for Kubernetes Enterprise) and
 `kong-enterprise-edition` (used with Kong for Kubernetes with Kong Enterprise).
 
